@@ -1,6 +1,14 @@
+import React, { useState } from "react";
 
 
 const PizzaBlock = (pizza_details) => {
+
+    const [pizzaCounter, setPizzaCounter] = useState(0);
+
+    const onAddPizzaButtonClick = () => {
+        setPizzaCounter(pizzaCounter + 1);
+    }
+
     return (
         <div class="pizza-block">
             <img
@@ -21,11 +29,11 @@ const PizzaBlock = (pizza_details) => {
                 </ul>
             </div>
             <div class="pizza-block__bottom">
-                <div class="pizza-block__price">from ${pizza_details.price}</div>
-                <div class="button button--outline button--add">
-                <span>Add</span>
-                <i>1</i>
-                </div>
+            <div class="pizza-block__price">from ${pizza_details.price}</div>
+                <button onClick={onAddPizzaButtonClick} class="button button--outline button--add">
+                    <span>Add </span>
+                    <i>{pizzaCounter}</i>
+                </button>
             </div>
         </div>
     )
