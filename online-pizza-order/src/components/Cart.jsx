@@ -6,7 +6,7 @@ const Cart = () => {
     return (
         <div>
             <div className="header__cart">
-                <a href="" className="button button--cart">
+                <a href="/" className="button button--cart">
                     <span>$ 0</span>
                     <div className="button__delimiter"></div>
                     <span>0</span>
