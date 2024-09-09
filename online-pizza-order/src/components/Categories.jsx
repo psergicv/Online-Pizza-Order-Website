@@ -1,19 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
+import '../App.css';
 
 
 const Categories = () => {
+
+    const [activeCatIndex, setActiveCatIndex] = useState(0);
+    const categories = ['All', 'Meat', 'Vegan', 'Grilled', 'Spicy', 'Closed']
+
     return (
-        <div>
+        <div className="categories">
             <ul>
-                <li class="active">All</li>
-                <li>Meat</li>
-                <li>Vegan</li>
-                <li>Grilled</li>
-                <li>Spicy</li>
-                <li>Closed</li>
+                {categories.map((category, index) =>(
+                    <li 
+                        key={index}
+                        className={activeCatIndex === index ? 'active' : ''}
+                        onClick={() => setActiveCatIndex(index)}
+                        >
+                        {category}
+                    </li>
+                ))}
             </ul>
         </div>
-    )
+    );
 };
 
 
