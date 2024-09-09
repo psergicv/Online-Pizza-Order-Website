@@ -1,23 +1,22 @@
 import React from "react";
+import Logo from "../assets/images/pizza-logo.png";
+import "../App.css";
+import SearchBar from "./SearchBar";
+import Cart from "./Cart";
 
 
 const Header = () => {
     return (
-        <div class="container">
-          <div class="header__logo">
-            <img width="38" src="" alt="Pizza logo" />
+        <div className="container">
+          <div className="header__logo">
+            <img width="38" src={Logo} alt="Pizza logo" />
             <div>
               <h1>React Pizza</h1>
               <p>best pizza in the world</p>
             </div>
           </div>
-          <div class="header__cart">
-            <a href="" class="button button--cart">
-              <span>0 $</span>
-              <div class="button__delimiter"></div>
-              <span>0</span>
-            </a>
-          </div>
+          <SearchBar />
+          <Cart />
         </div>
     )
 }

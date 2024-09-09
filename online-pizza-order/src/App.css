@@ -1,0 +1,121 @@
+/* General container for the header */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Logo section styling */
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img {
+    margin-right: 15px;
+}
+
+.header__logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header__logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Cart button styling */
+.header__cart {
+    display: flex;
+    align-items: center;
+}
+
+.button--cart {
+    display: flex;
+    align-items: center;
+    background-color: #ff6633;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button--cart span {
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.button__delimiter {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 10px;
+}
+
+
+/* Search Bar container */
+.search {
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Search Input styling */
+.search__input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.search__input::placeholder {
+    color: #ccc;
+}
+
+
+/* Ensure all components are aligned properly */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffeeba;
+    padding: 20px 40px;
+}
+
+.header__cart a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.header__cart .button {
+    display: flex;
+    align-items: center;
+    background-color: #ff6633;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.header__cart .button span {
+    margin: 0 5px;
+}
+
+.header__cart .button__delimiter {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 1px;
+    height: 20px;
+    margin: 0 10px;
+}
