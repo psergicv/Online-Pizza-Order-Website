@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?><Programacao><Grelha Data="11-09-2024" InicioEmissao="06:30:00" FimEmissao="00:00:59" idCanais="107" Nome="11-09-2024 - RTP Madeira" idGrelhas="-1" Estado="1"><Programa>
+<Id>32185_3157546</Id>
+<ProgramaId>32185</ProgramaId>
+<Nome>RTP 3 (Madeira)</Nome>
+<DataHora>11-09-2024 06:30:00</DataHora>
+<Genero>Informação</Genero> <Classificacao>Todos</Classificacao><HD>Sim</HD>
+		<Emissao>16:9</Emissao><Directo>Sim</Directo>
+	<Sinopse></Sinopse><InformacaoAdicional>Emissão em simultâneo com a RTP 3</InformacaoAdicional><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/32185_71344_23873.png</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/32185_71344_23873.png</Imagem><Pais>Portugal</Pais><Ano>2015</Ano>	</Programa><Programa>
+<Id>44961_3157549</Id>
+<ProgramaId>44961</ProgramaId>
+<Nome>Notícias do Atlântico</Nome>
+<DataHora>11-09-2024 19:00:00</DataHora>
+<Genero>Informação</Genero> <Classificacao>Todos</Classificacao><Emissao>16:9</Emissao><Directo>Sim</Directo>
+	<Serie>9</Serie>
+	<NumEpisodios>366</NumEpisodios>
+	<Sinopse>"Notícias do Atlântico" é um produto informativo, mais integrado, em que Açores e Madeira cruzam os alinhamentos respetivos e decidem quem, no dia-a-dia, marca a atualidade das ilhas e abre este renovado espaço informativo, para depois passar ao colega apresentador do outro arquipélago a continuação do programa, através do qual servimos, diariamente, uma hora de notícias aos espetadores de todas as antenas da RTP Internacional.</Sinopse><SinopseIngles>It´s an informational product, more integrated, where the Azores and Madeira intersect the respective alignments and decide who, on a day-to-day, marks the present of the islands and open this new information space, and then go to colleague host of other islands the continuation of the program, through which we serve daily, one-hour news to viewers of all antennas of the International RTP.</SinopseIngles><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/43343_67725_34775.jpg</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/43343_67725_34775.jpg</Imagem><Pais>Portugal</Pais><Ano>2024</Ano>	</Programa><Programa>
+<Id>45883_3157547</Id>
+<ProgramaId>45883</ProgramaId>
+<Nome>Verão Cá Dentro</Nome>
+<DataHora>11-09-2024 19:30:00</DataHora>
+<Genero>Entretenimento</Genero> <Classificacao>Todos</Classificacao><HD>Sim</HD>
+		<Emissao>16:9</Emissao><Directo>Sim</Directo>
+	<Episodio>48</Episodio>
+	<Sinopse>Ao longo do verão voltamos aos jardins da RTP-Madeira para mais uma série de programas alusivos à época estival. Um programa descontraído com dicas sobre várias atividades ligadas ao verão, promoção de eventos e de outra diversidade cultural. </Sinopse><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/45883_73157_41617.jpg</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/45883_73157_41617.jpg</Imagem><Pais>Portugal</Pais><Ano>2024</Ano>	</Programa><Programa>
+<Id>45040_3158007</Id>
+<ProgramaId>45040</ProgramaId>
+<Nome>Super Especial</Nome>
+<DataHora>11-09-2024 20:30:00</DataHora>
+<Genero>Desporto</Genero> <Classificacao>Todos</Classificacao><Repeticao>Sim</Repeticao>
+	<HD>Sim</HD>
+		<Emissao>16:9</Emissao><Episodio>10</Episodio>
+	<Sinopse>Programa de caráter regional dedicado ao acompanhamento do campeonato regional de ralis, que inclui a cobertura do circuito regional de rampas.</Sinopse><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/45040_71718_60567.jpg</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/45040_71718_60567.jpg</Imagem><Pais>Portugal</Pais><Ano>2024</Ano>	</Programa><Programa>
+<Id>15790_3157545</Id>
+<ProgramaId>15790</ProgramaId>
+<Nome>Telejornal Madeira</Nome>
+<DataHora>11-09-2024 21:00:00</DataHora>
+<Genero>Informação</Genero> <Classificacao>Todos</Classificacao><LinguaGestual>Sim</LinguaGestual>
+				<HD>Sim</HD>
+		<Emissao>16:9</Emissao><Directo>Sim</Directo>
+	<Sinopse>Para os espectadores da Região e da diáspora madeirense espalhada pelo mundo. O Telejornal da televisão mais próxima de si está no ar desde 1972 com uma informação de proximidade e a garantia de qualidade do serviço público. Visite a área Multimédia RTP. </Sinopse><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/15790_71343_94562.png</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/15790_71343_94562.png</Imagem>	</Programa><Programa>
+<Id>45886_3157550</Id>
+<ProgramaId>45886</ProgramaId>
+<Nome>Madeira Profunda</Nome>
+<DataHora>11-09-2024 21:50:00</DataHora>
+<Genero>Documentários</Genero> <Classificacao>Todos</Classificacao><HD>Sim</HD>
+		<Emissao>16:9</Emissao><Serie>2</Serie>
+	<NumEpisodios>12</NumEpisodios>
+	<Episodio>10</Episodio>
+	<Sinopse>Os lugares, o povo, as tradições, as particularidades escondidas de sítios da ilha da Madeira até agora pouco conhecidos. Ao longo de 12 episódios propomos-nos dar a conhecer uma outra realidade deste arquipélago.</Sinopse><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/45886_73155_91666.jpg</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/45886_73155_91666.jpg</Imagem><Pais>Portugal</Pais><Ano>2024</Ano>	</Programa><Programa>
+<Id>45887_3157543</Id>
+<ProgramaId>45887</ProgramaId>
+<Nome>Tema da Semana</Nome>
+<DataHora>11-09-2024 22:20:00</DataHora>
+<Genero>Informação</Genero> <Classificacao>Todos</Classificacao><HD>Sim</HD>
+		<Emissao>16:9</Emissao><NumEpisodios>12</NumEpisodios>
+	<Episodio>9</Episodio>
+	<Sinopse>Programa semanal que aborda os temas que marcam a atualidade com a presença de vários convidados em estúdio.</Sinopse><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/40800_62317_2169.jpg</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/40800_62317_2169.jpg</Imagem><Pais>Portugal</Pais><Ano>2024</Ano>	</Programa><Programa>
+<Id>15790_3157548</Id>
+<ProgramaId>15790</ProgramaId>
+<Nome>Telejornal Madeira</Nome>
+<DataHora>11-09-2024 23:30:00</DataHora>
+<Genero>Informação</Genero> <Classificacao>Todos</Classificacao><Repeticao>Sim</Repeticao>
+	<HD>Sim</HD>
+		<Emissao>16:9</Emissao><Sinopse>Para os espectadores da Região e da diáspora madeirense espalhada pelo mundo. O Telejornal da televisão mais próxima de si está no ar desde 1972 com uma informação de proximidade e a garantia de qualidade do serviço público. Visite a área Multimédia RTP. </Sinopse><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/15790_71343_94562.png</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/15790_71343_94562.png</Imagem>	</Programa><Programa>
+<Id>32185_3157544</Id>
+<ProgramaId>32185</ProgramaId>
+<Nome>RTP 3 (Madeira)</Nome>
+<DataHora>12-09-2024 00:00:00</DataHora>
+<Genero>Informação</Genero> <Classificacao>Todos</Classificacao><HD>Sim</HD>
+		<Emissao>16:9</Emissao><Directo>Sim</Directo>
+	<Sinopse></Sinopse><InformacaoAdicional>Emissão em simultâneo com a RTP 3</InformacaoAdicional><ProgramaImagem>http://cdn-images.rtp.pt/EPG/imagens/32185_71344_23873.png</ProgramaImagem><Imagem>http://cdn-images.rtp.pt/EPG/imagens/32185_71344_23873.png</Imagem><Pais>Portugal</Pais><Ano>2015</Ano>	</Programa></Grelha>
+</Programacao>

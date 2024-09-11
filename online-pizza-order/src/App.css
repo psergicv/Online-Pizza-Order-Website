@@ -216,3 +216,195 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
+
+
+
+/* Wrapper that holds everything on the page */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center; /* Centers the content horizontally */
+    background-color: #f9f9f9; /* Optional: Light background to distinguish the content */
+}
+
+/* Content block */
+.content {
+    width: 100%;
+    max-width: 1200px; /* Ensure the content doesn't stretch too far */
+    padding: 20px;
+    margin: 0 auto; /* Centers the content on the page */
+    box-sizing: border-box;
+}
+
+/* Container for the pizzas and other elements */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* Top section for Categories and Sort */
+.content__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Content block container for pizza grid */
+.content__block {
+    width: 100%;
+    max-width: 1200px; /* Ensure a maximum width to center the block */
+    margin: 0 auto; /* Centers the content block */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a card-like shadow */
+    border-radius: 15px; /* Optional: Rounded corners */
+}
+
+/* Title styling inside content block */
+.content__title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Grid layout for the pizza items */
+.content__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ensures multiple pizzas per row */
+    gap: 30px; /* Space between pizza items */
+    margin-top: 40px;
+    justify-items: center; /* Center the pizza blocks horizontally within the grid */
+}
+
+/* Pizza Block container */
+.pizza-block {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.pizza-block:hover {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Pizza image */
+.pizza-block__image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 240px; /* Adjust max width to ensure consistent pizza size */
+    border-radius: 50%;
+}
+
+/* Title of the pizza */
+.pizza-block__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Selector for dough types and sizes */
+.pizza-block__selector {
+    margin-bottom: 25px;
+}
+
+.pizza-block__selector ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.pizza-block__selector ul li {
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.pizza-block__selector ul li.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.pizza-block__selector ul li:hover {
+    background-color: #ececec;
+}
+
+/* Bottom part for price and add button */
+.pizza-block__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.pizza-block__price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add button styling */
+.button {
+    background-color: #ff6633;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button--outline {
+    background-color: transparent;
+    color: #ff6633;
+    border: 2px solid #ff6633;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+
+.button--add span {
+    margin-right: 10px;
+}
+
+.button--add i {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e9551a;
+}
+
+.button--outline:hover {
+    background-color: #ff6633;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .content__items {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller pizza blocks for smaller screens */
+    }
+}
+
